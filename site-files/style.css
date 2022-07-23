@@ -1,0 +1,42 @@
+/*----- Test default -----*/
+.testDefault{
+    width: 300px;
+    background-color: #61c9e1;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+}
+.testDefault__title {
+    font-size: 45px;
+}
+.testDefault__img img{
+    max-width: 100%;
+}
+.titulo{
+    background-image: url("images/bg-home.jpg");
+    height: 500px;
+    width: 500px;
+}
+.mrgTop{
+    margin-top: 15px;
+}
+
+.web{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}
+.menu:hover{
+    background-color:#fff;
+    color:#000;
+}
