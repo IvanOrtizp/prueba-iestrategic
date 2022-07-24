@@ -34,7 +34,7 @@
       </div></br>
       <div>
         <label for="comentarios" class="form__label">Comentarios:</label>
-        <input type="text" id="comentarios" name="comentarios">
+        <textarea type="text" id="comentarios" name="comentarios"></textarea>
       </div></br>
       
       <div>

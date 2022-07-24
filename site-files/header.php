@@ -43,11 +43,9 @@
             <ul>
                 <?php
                     echo '<li><img class = "logo2" src="images/logo.png"></li>';
-                    echo '<li><a href="">'. $site_menu['/products'] .'</a></li>';
-                    echo '<li><a href="">'. $site_menu['/procesos'] .'</a></li>';
-                    echo '<li><a href="">'. $site_menu['/empres'] .'</a></li>';
-                    echo '<li><a href="">'. $site_menu['/contacto'] .'</a></li>';
-                    
+                    foreach($site_menu as $text => $resul){
+                        echo '<li><a href="">'. $resul .'</a></li>';
+                    }
                 ?>    
             </ul>
         </nav>

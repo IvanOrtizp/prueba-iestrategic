@@ -10,7 +10,7 @@
         .titulo{
             background-image: url("images/bg-home.jpg");
             width: 1365px;
-            height: 300px;
+            height: 370px;
             margin: 0;
         }
         .text{
@@ -22,6 +22,7 @@
             background-color: rgb(0, 0, 0);
         }
     </style>
+    <!-- Prueba iEstrategic Ivan Ortiz -->
     <body>
         <div class="web">
             <div class="titulo">
@@ -34,8 +35,6 @@
             </div>
             <?php include 'content-home.php'; ?>
             <?php include 'footer.php'; ?>
-
-            
         </div>
     </body>
 
