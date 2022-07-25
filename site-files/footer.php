@@ -13,9 +13,7 @@
         height: 130px;
         float:left;
     }
-    .total{
-        background-color:black;
-    }
+
     .logo1{
         width: 1365px;
         text-align:center;
@@ -30,10 +28,11 @@
     
 </style>
 
-
     <div class="total">
         <div class ="menu">
+            
             <div class ="menufooter">
+            
                     <?php
                         echo($footer_1_menu["/1"].'</br>');
                         echo($footer_1_menu["/2"].'</br>');
