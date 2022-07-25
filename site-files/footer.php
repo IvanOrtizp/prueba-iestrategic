@@ -5,6 +5,7 @@
         color: white;
         width: 1365px;
         height: 260px;
+
     }
     .menufooter{
         background-color:black;
@@ -25,12 +26,16 @@
         background-color:black;
         color:white;
     }
+    .total{
+        width: 1365px;
+        background-color:black;
+    }
     
 </style>
 
     <div class="total">
+        </br>
         <div class ="menu">
-            
             <div class ="menufooter">
             
                     <?php
@@ -83,9 +88,6 @@
                         echo($footer_1_menu["/1"].'</br>'); 
                     ?>
             </div>
-            
-                
-            
         </div>
         
     </div>
